@@ -1,0 +1,10 @@
+﻿<div>
+    <ul class="catalog">
+        <li ng-repeat="item in catalog">
+            <h3>{{ item.name }}</h3>
+            <p>{{ item.description }}</p>
+            <h5>{{ item.price | currency:"DKK " }}</h5>
+            <button ng-click="addToCart(item)">Buy</button>
+        </li>
+    </ul>
+</div>

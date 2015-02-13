@@ -1,0 +1,290 @@
+body {
+	background: #3f77a4; /* Old browsers */
+	background: -webkit-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: -moz-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: -o-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: -ms-linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	background: linear-gradient(top,  #3f77a4, #8bb6d0, #6e80b8 70%, #26447c);
+	color: #fff;
+	font-family: $default-font;  
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 130%;
+
+}
+*:focus {
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $default-font;  
+	font-weight: 300;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+
+    -webkit-touch-callout: none;
+
+	&:visited, &:hover {	
+		color: inherit;
+		text-decoration: none;
+	}
+}
+.snap-drawer {
+	position: relative;
+	padding: 64px 0;
+	width: 266px;
+	overflow: hidden;
+
+	.search {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 266px;
+		height: 24px;
+		padding: 10px 0;
+
+		input {
+			background:#94a8ba;
+			border: 0;
+			color: #fff;
+			margin: 0 10px;
+			padding: 0 20px;
+			width: 206px;
+			height: 24px;
+
+			@include border-top-radius(15px);
+			@include border-bottom-radius(15px);
+			@include border-left-radius(15px);
+			@include border-right-radius(15px);
+
+			@include placeholder {
+			    color: #fff;
+			  }
+		}
+
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			@include clearfix;
+
+			&:last-child {
+				a {
+					border-bottom: 1px solid #cdd3da;
+				}
+			}
+
+			a {
+				border-top: 1px solid #cdd3da;
+				display: block;
+				padding: 10px;
+				position: relative;
+				
+				height: 24px;
+				line-height: 24px;
+				margin: 0 10px;
+
+				@include clearfix;
+
+				img {
+					float: left;
+					display: block;
+					height: 30px;
+					width: 30px;
+					margin: -3px 10px 0 -3px;
+
+					@include border-top-radius(4px);
+					@include border-bottom-radius(4px);
+					@include border-left-radius(4px);
+					@include border-right-radius(4px);
+					overflow: hidden;
+				}
+				span {
+					float: left;
+				}
+			}
+
+			&.active {
+				+ li {
+					 a {
+						border-top: 0;
+					 }
+				}
+				a {
+					background: rgba(0, 0, 0, 0.3);
+					border: 0;
+					margin: 0;
+					padding: 10px 20px;
+				}
+			}
+		}
+
+	}
+}
+.snap-content {
+	background: #3f77a4;
+	color: #fff;
+
+	@include box-shadow(0 0 15px 0 #222);
+
+	#topbar {
+		position: relative;
+		height: 44px;
+
+		#left-navigation, #right-navigation {
+
+			position: absolute;
+			top: 0px;
+
+			display: block;
+			width: 20px;
+			height: 20px;
+
+			padding: 12px;
+
+			.hamburger {
+				position: relative;
+				display: inline-block;
+				
+				height: 2px;
+				width: 20px;
+				margin: 4px 0;
+				background-color: #fff;
+
+				&:before {
+					background-color: inherit;
+					content: '';
+
+					position: absolute; 
+					top: -5px;
+					left: 0;
+					height: 100%;
+					width: 100%;
+				}
+
+				&:after {
+					background-color: inherit;
+					content: '';
+
+					position: absolute;
+					top: 5px;
+					left: 0;
+					height: inherit;
+					width: inherit;
+				}
+			}
+		}
+
+		#left-navigation {
+
+			left: 0px;
+
+		}
+		#right-navigation {
+
+			right: 0px;
+
+		}
+
+		h1 {
+			position: absolute;
+			top: 0px;
+			left: 44px;
+			right: 44px;
+			width: auto;
+			height: 44px;
+			line-height: 44px;
+
+			font-size: 26px;
+
+			text-align: center;
+			margin: 0;
+			padding: 0;
+
+		}
+	}
+	#content {
+		padding: 20px 10px;
+	}
+	.chat {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+				@include clearfix;
+		li {
+			clear: both;
+			padding: 10px;
+			margin: 0 0 6px 0;
+			display: inline-block;
+			max-width:  70%;
+
+			@include border-top-radius(8px);
+			@include border-bottom-radius(8px);
+			@include border-left-radius(8px);
+			@include border-right-radius(8px);
+
+			header {
+				font-size: 14px;
+				padding: 0 0 5px 0;
+				@include clearfix;
+
+				.time {
+					font-size: 12px;
+				}
+			}
+			
+			&.me {
+				background-color: rgba(0, 0, 0, 0.2);
+				float: right;
+
+				.name {
+					float: right;
+				}
+				.time {
+					float: left;
+				}
+			}
+			&.you {
+				background-color: rgba(255, 255, 255, 0.2);
+				float: left;
+
+				.name {
+					float: left;
+				}
+				.time {
+					float: right;
+				}
+			}
+		}
+	}
+
+	.facebook {
+		background-color: #3a5b9a;
+		display: block;
+		text-align: center;
+		padding: 10px;
+		margin: 10px 0;
+		@include border-top-radius(4px);
+		@include border-bottom-radius(4px);
+		@include border-left-radius(4px);
+		@include border-right-radius(4px);
+	}
+	.twitter {
+		background-color: #00aced;
+		display: block;
+		text-align: center;
+		padding: 10px;
+		margin: 10px 0;
+
+		@include border-top-radius(4px);
+		@include border-bottom-radius(4px);
+		@include border-left-radius(4px);
+		@include border-right-radius(4px);
+	}
+}

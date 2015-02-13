@@ -1,0 +1,21 @@
+<div class="chat">
+  <ul class="messages">
+    <li ng-repeat="m in messages">
+      <strong>{{m.name}}:</strong> {{m.message}} <small style="float:right;">{{m.timestamp | date:'hh:mm:ss a'}}</small>
+    </li>
+  </ul>
+  <textarea placeholder="type a message here..." camchat-textarea ng-disabled="!loginObj.user"></textarea>
+</div>
+<div class="users">
+  <ul class="userlist">
+    <li ng-repeat="u in users | orderByPriority | orderBy:'name'">
+    	<span class="{{u.state}}"> {{u.name}} <small style="float:right;opacity:.4;" ng-show="{{loginObj.user.username == u.name}}">(you)</small></span>
+    </li>
+  </ul> 
+</div>
+
+<div class="login-overlay" ng-if="!loginObj.user">
+  <div class="login-box">
+    <a href="#" ng-click="loginObj.$login('twitter')" class="twitter-btn">Login</a>
+  </div>
+</div>

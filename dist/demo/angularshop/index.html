@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html ng-app="AngularShop">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularShop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="content/css/styles.min.css" rel="stylesheet" />
+</head>
+    <body ng-controller="MainController">
+        <header>
+            <div class="shopping-cart">
+                <h2>Cart ({{ getCartCount() }}):</h2>
+                <ul>
+                    <li ng-repeat="item in cart">
+                        {{ item.product.name }} - {{ item.quantity }} <button ng-click="changeQuantity(item, -1)">-</button> <button ng-click="changeQuantity(item, 1)">+</button> <button ng-click="removeFromCart(item)">x</button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="container" ng-view=""></div>
+        <footer></footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+        <script src="app.js"></script>
+        <script src="services/catalogService.js"></script>
+        <script src="controllers/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+﻿@import "_mixins.less";
+@import "_normalize.less";
+@import "_fonts.less";
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+
+    @media only screen and (max-width : 680px) {
+        font-size: 18px;
+    }
+}
+
+h1 {
+    color: inherit;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+    @media only screen and (max-width : 680px) {
+        font-size: 22px;
+    }
+}
+
+a {
+    color: #3498DB;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+    font-family: sans-serif;
+    font-size: 15px;
+
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 840px;
+    height: 100%;
+    display: table;
+    overflow: hidden;
+
+    .content {
+        display: table-cell;
+        padding: 10px;
+        vertical-align: middle;
+
+        article {
+            width: 100%;
+            text-align: left;
+
+            .icons {
+                display: inline-block;
+                padding: 20px 0;
+                margin-left: -5px;
+                .clearfix;
+                
+                span {
+                    color: #3498DB;
+                    display: block;
+                    float: left;
+                    line-height: 30px;
+                    margin: 0 5px;
+
+                    a {
+                        background: #f2f2f2;
+                        color: #3498DB;
+                        display: block;
+                        line-height: 45px;
+                        width: 50px;
+                        text-align: center;
+                        .border-radius(4px);
+                        .transition(all 0.2s ease-in-out);
+                        
+                        &:hover {
+                            background: #3498DB;
+                            color: #fff;
+                            .transition(all 0.2s ease-in-out);
+                        }
+                    }
+                }
+                @media only screen and (max-width : 320px) {
+                    float: none;
+                    margin: 0 auto;
+                }
+            }
+
+            .article-img {
+                float: left;
+                margin-right: 20px;
+                width: 140px;
+
+                &.img-circle {
+                    .border-radius(100%);
+                }
+                @media only screen and (max-width : 320px) {
+                    float: none;
+                    margin: 0 0 20px 0;
+                }
+            }
+
+            @media only screen and (max-width : 320px) {
+                text-align: center;
+            }
+        }
+    }
+}
