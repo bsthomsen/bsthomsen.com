@@ -14,7 +14,6 @@
 
 html, body {
     height: 100%;
-    overflow: hidden;
 }
 
 body {
@@ -26,6 +25,8 @@ body {
     background: url(/images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
 
     &:before {
         content: "";

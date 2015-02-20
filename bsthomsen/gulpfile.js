@@ -30,7 +30,7 @@ gulp.task('vendorjs', function () {
 
 });
 
-gulp.task('dev', ['css', 'vendorjs'], function() {
+gulp.task('dev', ['css'], function() {
 
     //return gulp.src(paths.dest + 'index.html')
     //    .pipe(plugins.inject(
