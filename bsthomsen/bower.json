@@ -1,0 +1,12 @@
+{
+  "name": "bsthomsen",
+  "version": "0.0.1",
+  "authors": [
+    "Bjørn Thomsen <mail@bsthomsen.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap-sass": "~3.3.2"
+  }
+}
