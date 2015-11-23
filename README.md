@@ -2,5 +2,5 @@
 
 #### Deployment
 ```html
-git subtree push --prefix dist origin gh-pages
+git subtree push --prefix bsthomsen/wwwroot origin gh-pages
 ```
