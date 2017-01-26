@@ -2,62 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8034670-09b5-4c38-8824-70d77d16a86a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/bsthomsen.com.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.nuget/NuGet.Config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.nuget/NuGet.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.nuget/NuGet.targets" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen.sln" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/Infrastructure/Bootstrapper.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/Modules/IndexModule.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/Properties/AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/Web.Debug.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/Web.Release.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/Web.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/Nancy.Hosting.Aspnet.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/Nancy.Hosting.Aspnet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/Nancy.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/Nancy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/bsthomsen.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/bsthomsen.dll.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bin/bsthomsen.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bsthomsen.csproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/bsthomsen.csproj.user" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/bsthomsen.csproj.FileListAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/bsthomsen.csprojResolveAssemblyReference.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/bsthomsen.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/bsthomsen.pdb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/packages.config" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/scss/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/scss/styles.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/scss/styles.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/scss/styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/CNAME" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/css/styles.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/sitemap.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bsthomsen/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="$PROJECT_DIR$/src/App.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bsthomsen/wwwroot/images/background.jpg" afterPath="$PROJECT_DIR$/src/background.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -107,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
@@ -115,6 +61,16 @@
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +87,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>node_</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -144,6 +105,7 @@
         <option value="$PROJECT_DIR$/_old/bsthomsen/wwwroot/index.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -302,12 +264,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485457421466</updated>
-      <workItem from="1485457422637" duration="1137000" />
+      <workItem from="1485457422637" duration="1340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1137000" />
+    <option name="totallyTimeSpent" value="1340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -423,6 +385,14 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
