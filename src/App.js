@@ -39,7 +39,7 @@ class App extends Component {
                         <div className="portrait">
                             <Gravatar email="mail@bsthomsen.com" size={230} />
                         </div>
-                        <h3>Bjørn Schmidt Thomsen</h3>
+                        <h3>Bjørn Thomsen</h3>
                         <h4>Web developer at <a href="http://speedperform.com" target="_blank">WorldManuals</a></h4>
                         <div className="icons">
                         <span className="email">
