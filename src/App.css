@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background: url("/media/background.jpg") no-repeat fixed top right;
+    background-size: cover;
+    padding: 50px;
+}
+
+body:before {
+     content: "";
+     position: fixed;
+     top: -10px;
+     left: 0;
+     width: 100%;
+     height: 10px;
+     box-shadow: 0 0 10px rgba(0,0,0,.5);
+     z-index: 100;
+}
+
+#main-section {
+    color: #fff;
+    text-align: center;
+}
+
+#main-section h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+#main-section h2 {
+    color: rgba(0, 0, 0, 0.35);
+    font-family: "Merriweather", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+
+#main-section h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#main-section h4 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#main-section h4 a {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+#main-section h4 a small {
+    color: inherit;
+}
+
+#main-section h4 a:hover {
+     text-decoration: none;
+}
+
+#main-section p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#main-section a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#main-section hr {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+}
+
+#main-section .portrait {
+    border: 10px solid rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+    border-radius: 300px;
+
+    width: 230px;
+    height: 230px;
+
+    margin: 70px auto 0 auto;
+}
+#main-section .portrait img {
+    width: 230px;
+}
+
+#main-section .icons {
+    padding: 10px 0;
+}
+#main-section .icons span {
+    display: inline-block;
+    padding: 0 5px;
+}
+#main-section .icons a {
+    color: #fff;
+    text-decoration: none;
+}
+#main-section .icons a:hover {
+     color: #fff;
+     text-decoration: none;
+}
+
+#photo-section [class*="col-"] {
+    height: 260px;
+    background: rgba(25, 33, 50, 0.8);
+    padding: 0;
+}
+
+.fa-2x {
+    font-size: 1.5em;
+}
