@@ -59,7 +59,7 @@ class App extends Component {
                             </a>
                         </span>
                             <span className="linkedin">
-                            <a href="www.linkedin.com/in/1-bsthomsen" target="_blank">
+                            <a href="http://www.linkedin.com/in/1-bsthomsen" target="_blank">
                                 <FontAwesome
                                     name="linkedin"
                                     size="2x"
