@@ -40,7 +40,7 @@ class App extends Component {
                             <Gravatar email="mail@bsthomsen.com" size={230} />
                         </div>
                         <h3>Bjørn Thomsen</h3>
-                        <h4>Web developer at <a href="http://speedperform.com" target="_blank">WorldManuals</a></h4>
+                        <h4>Web developer at <a href="http://speedperform.com" target="_blank">Speedperform</a></h4>
                         <div className="icons">
                         <span className="email">
                             <a href="mailto:mail@bsthomsen.com" target="_blank">
