@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Helmet from "react-helmet";
-import { Grid, Row, Col} from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import Gravatar from "react-gravatar";
 import FontAwesome from 'react-fontawesome';
 
@@ -23,19 +23,19 @@ class App extends Component {
             ]}
           />
           <section id="main-section">
-            <Grid>
+            <Container>
                 <Row>
-                    <Col md={12}>
+                    <Col>
                         <h2>Welcome to</h2>
                         <h1>My personal web site!</h1>
                         <hr />
                         <p>
-                            I'm a curious Chief Software Architect with a strong interest in JavaScript, ReactJS, SASS and frontend in general.
+                            I'm a curious web developer with a strong interest in JavaScript, ReactJS, SASS and frontend in general.
                         </p>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={12}>
+                    <Col>
                         <div className="portrait">
                             <Gravatar email="mail@bsthomsen.com" size={230} />
                         </div>
@@ -77,7 +77,7 @@ class App extends Component {
                         </div>
                     </Col>
                 </Row>
-            </Grid>
+            </Container>
           </section>
       </div>
     );
