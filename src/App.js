@@ -30,7 +30,7 @@ class App extends Component {
                         <h1>My personal web site!</h1>
                         <hr />
                         <p>
-                            I'm a curious web developer with a strong interest in JavaScript, ReactJS, SASS and frontend in general.
+                            I'm a curious web developer with a strong interest in JavaScript, Vue, ReactJS, SASS and frontend in general.
                         </p>
                     </Col>
                 </Row>
