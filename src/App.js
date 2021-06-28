@@ -14,10 +14,10 @@ class App extends Component {
             title="Bjørn Thomsen"
             meta={[
                 {name: "author", content: "Bjørn Thomsen"},
-                {name: "description", content: "Helmet application"},
+                {name: "description", content: ""},
             ]}
             link={[
-                {rel: "canonical", href: "http://bsthomsen.com"},
+                {rel: "canonical", href: "https://bsthomsen.com"},
                 {rel: "shortcut icon", href: "https://secure.gravatar.com/avatar/5c5adb8d46df0e509a413458987d3c5e?s=32"},
                 {rel: "apple-touch-icon", href: "https://secure.gravatar.com/avatar/5c5adb8d46df0e509a413458987d3c5e?s=300"},
             ]}
@@ -30,7 +30,7 @@ class App extends Component {
                         <h1>My personal web site!</h1>
                         <hr />
                         <p>
-                            I'm a curious Web developer with a strong interest in JavaScript, ReactJS, SASS and frontend in general.
+                            I'm a curious Chief Software Architect with a strong interest in JavaScript, ReactJS, SASS and frontend in general.
                         </p>
                     </Col>
                 </Row>
@@ -40,7 +40,7 @@ class App extends Component {
                             <Gravatar email="mail@bsthomsen.com" size={230} />
                         </div>
                         <h3>Bjørn Thomsen</h3>
-                        <h4>Web developer at <a href="http://speedperform.com" target="_blank">Speedperform</a></h4>
+                        <h4>Chief Software Architect at <a href="https://speedperform.com" target="_blank">Speedperform</a></h4>
                         <div className="icons">
                         <span className="email">
                             <a href="mailto:mail@bsthomsen.com" target="_blank">
@@ -59,7 +59,7 @@ class App extends Component {
                             </a>
                         </span>
                             <span className="linkedin">
-                            <a href="http://www.linkedin.com/in/1-bsthomsen" target="_blank">
+                            <a href="https://www.linkedin.com/in/bsthomsen-com/" target="_blank">
                                 <FontAwesome
                                     name="linkedin"
                                     size="2x"
